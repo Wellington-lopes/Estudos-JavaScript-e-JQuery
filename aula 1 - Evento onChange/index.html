@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    
+    <!--JS-->
+    <script>
+        //ONCHANGE
+        function mensagem(){
+            var curso = document.getElementById("cursos").value;
+
+            alert(curso);
+        }
+        
+    </script>    
+</head>
+<body>
+    <select name="cursoprogramador" id="cursos" onchange="mensagem()">
+        <option>Escolha seu curso</option>
+        <option>CSS</option>
+        <option>HTML</option>
+        <option>JavaScript</option>
+    </select>
+    <br>
+    <textarea name="mensagem" id="1" cols="20" rows="1"></textarea>
+    <!--<button onclick="mensagem()">Clique</button>-->
+</body>
+</html>
